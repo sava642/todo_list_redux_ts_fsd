@@ -1,0 +1,23 @@
+.block_control {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+
+}
+
+.wrapper {
+	width: 70%;
+	background-color: rgb(251, 251, 251);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	border: 1px rgb(217, 205, 205) solid;
+}
+
+@media (max-width: 768px) {
+
+	/* Медиазапрос для устройств с максимальной шириной 768px (мобильные устройства) */
+	.wrapper {
+		width: 95%;
+	}
+}
